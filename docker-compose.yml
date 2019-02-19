@@ -1,0 +1,14 @@
+version: '2'
+services:
+  zk-dubbo:
+    image: chaimm/zookeeper-dubbo:1.0
+    restart: always
+    ports:
+      - "2181:2181"
+      - "10000:8080"
+
+
+
+
+
+
